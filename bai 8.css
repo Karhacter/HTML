@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+user agent stylesheet
+
+p {
+    display: block;
+}
+
+#inp {
+    width: 10%;
+    text-align: center;
+}

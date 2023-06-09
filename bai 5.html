@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai 5</title>
+</head>
+<body>
+    <form name="input" action="html_form_action.asp" method="get">
+        <fieldset style="width: 40%;">
+            <legend>Thông tin cá nhân:</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Họ Tên</td>
+                        <td>
+                            <input type="text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ngày Sinh</td>
+                        <td>
+                            <input type="date" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Giới Tính</td>
+                        <td>
+                            Male
+                            <input type="radio" name="gt" checked="checked">
+                            &nbsp; &nbsp; Fermale
+                            <input type="radio" name="gt"> 
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>Trình Độ</td>
+                        <td>
+                            <input type="checkbox" name="edu" value="uni">
+                            Đại học &nbsp; &nbsp;
+                            <input type="checkbox" name="edu" value="col">
+                            Cao đẳng
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hình ảnh cá nhân</td>
+                        <td>
+                            <input type="file" id="f">
+                        </td>
+                    </tr>
+                   </tbody>
+            </table>
+        </fieldset>
+
+    </form>
+     
+    <br>
+
+    <form>
+        <label for="Khoa-hoc">Chọn Khóa Học:</label>
+        <select id="Khoa-hoc">
+            <optgroup label="Multimedia">
+                <option>Window Media</option>
+                <option>Jet Audio 9</option>
+            </optgroup>
+            <optgroup label="Operation System">
+                <option>Windows XP</option>
+                <option>Windows XP</option>
+                <option>Window Vista</option>
+            </optgroup>
+            <option>Office</option>
+        </select>
+    </form>
+
+    <br>
+
+    <form>
+       <label>Góp ý</label> <br>
+       <textarea rows="5" cols="30"></textarea> <br><br>
+       <input type="submit"> <input type="reset">
+    </form>
+</body>
+</html>

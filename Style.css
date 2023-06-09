@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 950px;
+    height: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.header {
+    display: block;
+}
+
+.menu li {
+    background-color: #f0584b;
+    width: 170px;
+    list-style-type: none;
+    float:left;
+    padding: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.list-content {
+    clear: left;
+    margin: 10px;
+}
+
+figure {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 253px;
+    color: #f0584b;
+    float: left;
+    margin-top: 25px;
+}
+
+.recipes li {
+    list-style-type: none;
+    padding: 10px;
+    width: 200px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.Dvan {
+    font-style: "Times New Roman",Times, serif;
+    color: #fc0264;
+    padding: 40px;
+    width: 300px;
+    float: left;
+}
+
+.recipes { 
+    border-left: 1px solid lightgrey;
+    color: #fc0264;
+    float: left;
+    height: 800px;
+}
